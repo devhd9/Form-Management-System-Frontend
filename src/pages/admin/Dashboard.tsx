@@ -1410,6 +1410,7 @@ const AdminDashboard: React.FC = () => {
 
               {/* Add Export Button */}
               <Button
+                className="flex justify-center items-center"
                 variant="secondary"
                 onClick={() => setIsExportModalOpen(true)}
                 disabled={Object.keys(questionUserAssignments).length === 0}
